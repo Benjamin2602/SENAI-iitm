@@ -1,13 +1,16 @@
+import Card from "./Card"
 import Hero from "./Hero"
 import Navbar from "./Navbar"
+import "../css/mainContent.css";
 
 
 const MainContent = () => {
   return (
-    <div>
+    <div className="main-bg">
     <Navbar/>
     <Hero/>
-    <MainContent/>
+    <Card/>
+    
       
     </div>
   )
