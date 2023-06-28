@@ -4,7 +4,7 @@ import "../css/mainContent.css";
 RiMoreFill;
 import { RiMoreFill } from "react-icons/ri";
 import Avatar from "@material-ui/core/Avatar";
-import placeholderImage from '../images/ben-portfolio.jpg';
+import placeholderImage from "../images/ben-portfolio.jpg";
 
 const Navbar = () => {
   return (
@@ -16,7 +16,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-content-2">
           <Avatar alt="ben" src={placeholderImage} variant="square" />
-          <RiMoreFill color="black" size="1.9rem" className="dot"/>
+          <RiMoreFill color="black" size="1.9rem" className="dot" />
         </div>
       </div>
     </div>
