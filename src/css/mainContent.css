@@ -1,0 +1,36 @@
+.main-bg{
+    color: #000;
+    background-color:#e4f1ff;
+    display: flex;
+    width: 74%;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 70px; */
+    font-size: 10px;
+    padding-top:30px;
+    padding-left: 50px;
+ 
+}
+
+.navbar-p{
+    font-size: 16px;
+
+}
+
+.navbar-content-2{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-left: 600px;
+    gap: 20px;
+
+}
+
