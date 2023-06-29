@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="navbar-items">
         <div className="navbar-content-1">
           <h1>Welcome back Benjamin!</h1>
-          <p className="navbar-p">Check out today's weather information</p>
+          <p className="navbar-p">Check out today weather information</p>
         </div>
         <div className="navbar-content-2">
           <Avatar alt="ben" src={placeholderImage} variant="square" />

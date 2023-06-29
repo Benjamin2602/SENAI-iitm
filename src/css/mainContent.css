@@ -1,7 +1,6 @@
 .main-bg{
     color: #000;
-    background-color:#e4f1ff;
-    display: flex;
+    background-color:#b3d6fd;
     width: 74%;
 }
 
@@ -34,3 +33,24 @@
 
 }
 
+.chart-container {
+    border-radius: 20px;
+    border: 2px solid #ccc;
+    margin: 10px;
+    padding: 20px;
+    background-color: #e7f3ff;
+  }
+  
+  .chart-items {
+    width: 100%;
+    height: 210px;
+  }
+
+  .chart-heading{
+    font-size:13px;
+  }
+/* 
+  .chart-container .chart-items .chart .recharts-cartesian-grid line.vertical {
+    stroke-width: px;
+  }
+   */
