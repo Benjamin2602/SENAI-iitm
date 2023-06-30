@@ -3,4 +3,6 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
+    overflow-y: hidden;
 }
