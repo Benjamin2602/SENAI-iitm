@@ -25,6 +25,10 @@
 
 }
 
+.navbar-content-1{
+    margin-right: 60px;
+}
+
 .navbar-content-2{
     display: flex;
     flex-direction: row-reverse;
