@@ -1,0 +1,163 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    height:130px;
+    width:270px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 22px;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.heading{
+    display: flex;
+    justify-content:space-between;
+    gap: 70px;
+    width: 100%;
+}
+
+.droplet-icon{
+    height: 30px;
+    width: 30px;
+    background-color: #5c61ff;
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.per{
+    font-size: 20px;
+    font-weight: 800;
+    margin-right: 10px;
+}
+
+.progress-bar{
+    display: flex;
+    gap: 25px;
+}
+
+.humidity-line{
+    background-color: #DCDCDC;
+    border-radius: 10px;
+}
+
+
+.wind-container{
+    display: flex;
+    flex-direction: column;
+    height:130px;
+    width:270px;
+    margin-left: 10px;
+    background-color: #fff;
+    border-radius: 22px;
+    padding: 5px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.wind-power-icon{
+    height: 30px;
+    width: 30px;
+    background-color: #5c61ff;
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 40px;
+}
+
+.wind-circle-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+.wind-kmh{
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: -10px;
+} 
+
+.precipitation-items-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.precipitation-items {
+    display: flex;
+    flex-wrap: wrap; /* Add this line to allow items to wrap */
+    gap: 10px;
+  }
+
+  .blob-icon {
+    max-width: 50px;
+    background-color: #DCDCDC;
+    border-radius: 10px;
+  }
+
+  .thunder-icon{
+    height: 30px;
+    width: 30px;
+    background-color: #5c61ff;
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.uv-items-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.uv-items {
+    display: flex;
+    flex-wrap: wrap; /* Add this line to allow items to wrap */
+    gap: 10px;
+  }
+
+  .sun-icon{
+    height: 30px;
+    width: 30px;
+    background-color: #5c61ff;
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 10px;
+}
+/* feel and rain card */
+.feel-icon{
+    height: 30px;
+    width: 30px;
+    background-color: #5c61ff;
+    color: #FFF;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.feel-items-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    margin: 5px;
+}
+
+.feel-items {
+    display: flex;
+    flex-wrap: wrap; /* Add this line to allow items to wrap */
+    gap: 10px;
+  }
+
+.feel-span{
+    font-size: 12px;
+    color: grey;
+}

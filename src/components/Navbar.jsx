@@ -1,4 +1,4 @@
-import "../css/mainContent.css";
+
 
 // import { SiLastpass } from 'react-icons/si'
 RiMoreFill;
